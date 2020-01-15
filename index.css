@@ -50,6 +50,10 @@ ul li {
     border-bottom-right-radius: 20px;
 }
 
+.roundedBorderDiv {
+    border-radius: 20px;
+}
+
 .infoContent address {
     color: black;
     font-size: 1.2rem;
