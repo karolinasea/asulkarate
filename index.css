@@ -1,0 +1,82 @@
+body {
+    background: url('images/bkgImg.jpg') fixed;
+    opacity: 0.9;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+}
+
+ul li {
+    list-style: none;
+}
+
+.nav-link {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.navbar {
+    background-color: white;
+    font-family: 'Cambay', sans-serif;
+}
+.form-group input {
+    width: 30%;
+}
+.form-group textarea {
+    width: 60%;
+}
+
+@media screen and (max-width: 992px)
+{
+    .form-group input {
+        width: 80%;
+    }
+    .form-group textarea {
+        width: 80%;
+    }
+}
+
+.infoContent, footer {
+    margin: auto;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.8);
+    width: 81%
+}
+
+.navigationMenu {
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.infoContent address {
+    color: black;
+    font-size: 1.2rem;
+}
+
+a {
+    color: #2B5FB4;
+}
+
+a:hover {
+    color: #2B5FB4;
+}
+
+a:visited {
+    color: #2B5FB4;
+}
+
+h5, ul li {
+    color: black;
+}
+
+#profs {
+    color: black;
+    font-size: 1.4rem;
+}
+
+.h4InfoTitles {
+    background: white;
+    color: #2B5FB4;
+}
